@@ -1,0 +1,21 @@
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude: [
+    lib/**.g.dart
+  ]
+
+linter:
+  rules:
+    - prefer_single_quotes
+    - prefer_final_locals
+    - always_declare_return_types
+    - always_put_required_named_parameters_first
+    - always_use_package_imports
+    - sort_constructors_first
+    - avoid_void_async
+    - unawaited_futures
+    - avoid_private_typedef_functions
+    - prefer_final_in_for_each
+    - avoid_function_literals_in_foreach_calls
